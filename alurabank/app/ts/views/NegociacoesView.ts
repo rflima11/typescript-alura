@@ -1,4 +1,6 @@
-class NegociacoesView extends View<Negociacoes> {
+namespace Views {
+
+export class NegociacoesView extends Views.View<Negociacoes> {
 
  
     
@@ -35,4 +37,5 @@ class NegociacoesView extends View<Negociacoes> {
         </table>  
         `; 
     }
+}
 }

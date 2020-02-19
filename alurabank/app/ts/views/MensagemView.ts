@@ -1,4 +1,6 @@
-class MensagemView extends View<string> {
+namespace Views{
+
+export class MensagemView extends View<string> {
 
     
 
@@ -9,3 +11,5 @@ class MensagemView extends View<string> {
         return `<p class="alert alert-info">${model}</p>`
     }
 }
+}
+
